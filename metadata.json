@@ -1,0 +1,5 @@
+{
+  "name": "抽籤分組小幫手 (Lucky Draw & Grouping Helper)",
+  "description": "一個方便的名單抽籤與自動分組工具，支援 CSV/Excel 上傳與手動輸入，提供抽獎動畫與視覺化分組結果。",
+  "requestFramePermissions": []
+}
