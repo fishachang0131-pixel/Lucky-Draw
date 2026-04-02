@@ -11,6 +11,10 @@ export default function App() {
   const [mode, setMode] = useState<AppMode>('setup');
   const [participants, setParticipants] = useState<Participant[]>([]);
 
+  React.useEffect(() => {
+    document.title = "抽籤分組幫手";
+  }, []);
+
   const navItems = [
     { id: 'setup', label: '名單設定', icon: Settings },
     { id: 'draw', label: '獎品抽籤', icon: Trophy },
